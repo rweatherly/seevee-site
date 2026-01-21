@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "WebFetch(domain:sample-ai-resume.lovable.app)",
+      "Bash(unzip:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_install"
+    ]
+  }
+}

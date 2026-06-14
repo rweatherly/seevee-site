@@ -57,94 +57,147 @@ export interface Profile {
 
 export const profile: Profile = {
   name: "Rob Weatherly",
-  title: "Sr Azure Cloud Architect",
-  subtitle: "Azure Cloud Architecture, DevOps, Infrastructure Security & Technical Leadership",
-  location: "Eastpointe, Michigan, United States",
+  title: "Azure Infrastructure Architect / Lead Cloud Engineer",
+  subtitle: "Cloud foundation design, Azure infrastructure, IaC, migration, VDI modernization & lead technical engineering",
+  location: "Metro Detroit, MI",
   linkedIn: "https://www.linkedin.com/in/rob-weatherly/",
   status: "Open to Opportunities",
-  about: "Driven to understand the business goals and objectives to create strategic Cloud based solutions leveraging the Microsoft Azure platform. To participate in project planning, delivery, contributing to training and the implementation of multiple solutions to ensure key financial and business objectives are met.",
+  about: "Infrastructure architect and lead engineer with 25 years in IT and roughly 8 years focused on Azure architecture, implementation, migration, and operations. Designs and builds Cloud Adoption Framework aligned Azure infrastructure for regulated, complex environments, especially where private networking, security governance, hybrid integration, IaC, delivery ambiguity, and stakeholder alignment have to be handled together.",
   targetRoles: [
     "Infrastructure/Cloud Architect",
     "Technical Manager/Director",
     "Solutions Architect",
-    "Azure Practice Lead"
+    "Azure Practice Lead",
+    "Lead Cloud Engineer",
+    "Cloud Foundation Architect"
   ],
   education: [
     {
       school: "National Institute of Technology",
-      degree: "Associate's degree",
+      degree: "Technical/vocational training",
       field: "Information Technology",
-      years: "1999 - 2001"
+      years: "Southfield, MI"
     }
   ],
-  certifications: [
-    "Microsoft Azure Fundamentals (AZ-900)"
-  ],
+  certifications: [],
   skillCategories: [
     {
-      name: "Cloud & Infrastructure",
+      name: "Azure Architecture",
       level: "strong",
       skills: [
-        "Azure Cloud Architecture",
-        "Azure Infrastructure Engineering",
-        "Cloud Migration Strategy",
-        "VMware to Azure Migrations",
-        "Hybrid Cloud Solutions",
-        "Disaster Recovery Architecture"
+        "Azure landing zones",
+        "Cloud Adoption Framework",
+        "Hub-and-spoke networks",
+        "Hybrid connectivity",
+        "Azure Firewall Premium",
+        "Private Link",
+        "Private DNS Resolver",
+        "VPN Gateway",
+        "ExpressRoute evaluation",
+        "Azure Policy",
+        "Defender for Cloud",
+        "Key Vault",
+        "RBAC / PIM / Conditional Access",
+        "Entra ID",
+        "Azure Monitor",
+        "Backup and disaster recovery"
       ]
     },
     {
-      name: "DevOps & Automation",
+      name: "Data Platform Infrastructure",
       level: "strong",
       skills: [
-        "Infrastructure as Code (Bicep, Terraform)",
+        "Azure Databricks infrastructure",
+        "VNet injection",
+        "No-public-IP workspaces",
+        "Unity Catalog infrastructure boundaries",
+        "ADLS Gen2",
+        "CMK-backed storage",
+        "Synapse Analytics",
+        "Data Factory",
+        "Self-hosted integration runtime",
+        "Snowflake integration points",
+        "dbt enablement",
+        "Synapse CI/CD",
+        "Application Gateway Private Link",
+        "Azure OpenAI"
+      ]
+    },
+    {
+      name: "DevOps & IaC",
+      level: "strong",
+      skills: [
+        "Bicep",
+        "ARM templates",
+        "Terraform",
+        "Azure Verified Modules exposure",
+        "Deployment Stacks decisioning",
         "Azure DevOps",
-        "CI/CD Pipelines",
-        "GitHub Actions",
-        "PowerShell Automation",
-        "Azure Resource Manager"
+        "Classic Release Pipelines",
+        "GitHub",
+        "CI/CD pipelines",
+        "Environment parameterization",
+        "Variable groups",
+        "Key Vault overrides",
+        "PowerShell",
+        "Bash",
+        "Python",
+        "VM image build and maintenance"
       ]
     },
     {
-      name: "Security & Compliance",
+      name: "Migration, VDI & Assessment",
       level: "strong",
       skills: [
-        "Azure Security Architecture",
-        "Identity & Access Management",
-        "Network Security",
-        "Compliance Frameworks",
-        "Azure Government (FedRAMP)"
+        "Azure Migrate",
+        "VMware-to-Azure migration planning",
+        "7R migration strategy",
+        "Large workload portfolio analysis",
+        "Azure Virtual Desktop",
+        "VMware Horizon to AVD",
+        "Citrix to AVD",
+        "Nerdio-enabled AVD operations",
+        "FSLogix profile storage",
+        "Host pools",
+        "Autoscale",
+        "Landing-zone assessments",
+        "Cloud security assessments",
+        "SharePoint Online migration planning",
+        "ShareGate",
+        "Power Query"
       ]
     },
     {
-      name: "Leadership & Delivery",
+      name: "Client & Delivery Leadership",
       level: "strong",
       skills: [
-        "Technical Team Leadership",
-        "Solution Design",
-        "Project Management",
-        "Client Engagement",
-        "Global Team Coordination",
-        "Enterprise Architecture"
+        "Discovery facilitation",
+        "Executive stakeholder alignment",
+        "Engineering stakeholder alignment",
+        "Contentious client relationship repair",
+        "Scope reset",
+        "Decision framing",
+        "Technical facilitation",
+        "Runbooks",
+        "Remediation prioritization",
+        "Global team leadership",
+        "SWAT and outage support",
+        "Operational handoff"
       ]
     },
     {
-      name: "Emerging Technologies",
+      name: "AI-Assisted Engineering",
       level: "moderate",
       skills: [
-        "Azure OpenAI / GPT Integration",
-        "AI-Assisted Development",
-        "Python Scripting",
-        "Bash Scripting"
-      ]
-    },
-    {
-      name: "Areas for Growth",
-      level: "learning",
-      skills: [
-        "Kubernetes / Container Orchestration",
-        "Frontend Development",
-        "Multi-Cloud (AWS/GCP deep expertise)"
+        "Solution research",
+        "Architecture validation",
+        "Documentation acceleration",
+        "IaC drafting",
+        "Implementation checking",
+        "Azure OpenAI exposure",
+        "GPT models",
+        "Embeddings",
+        "Source-backed decision making"
       ]
     }
   ],
@@ -152,79 +205,83 @@ export const profile: Profile = {
     {
       id: "slalom",
       company: "Slalom",
-      title: "Azure Infrastructure Architect",
+      title: "Senior Consultant and Azure Infrastructure Architect",
       location: "United States",
-      startDate: "Apr 2022",
+      startDate: "May 2022",
       endDate: "Present",
-      duration: "3 yrs 10 mos",
+      duration: "4 yrs 1 mo",
       type: "Full-time",
-      description: "Lead Azure Solution Architect driving large-scale cloud transformation initiatives. Focus on VMware to Azure migrations, DevOps engineering with Azure OpenAI integration, and comprehensive security architecture reviews.",
+      description: "Azure infrastructure architecture, cloud foundation implementation, regulated platform design, migration and VDI modernization, DevOps/IaC patterns, and client-facing technical leadership.",
       highlights: [
-        "Lead architect for automotive client VMware to Azure migration (2000+ workloads)",
-        "Implemented Azure OpenAI with GPT integration for DevOps automation",
-        "Designed and delivered CI/CD pipelines using Azure DevOps and GitHub",
-        "Conducted security architecture reviews and compliance assessments",
-        "Developed Infrastructure as Code solutions using Bicep and Terraform"
+        "Brought in as the architect for ambiguous, unfamiliar, or stalled engagements, turning new platforms and compliance regimes into executable architecture decisions and client-owned runbooks",
+        "Architected and deployed a greenfield CAF-aligned Azure landing zone for a regulated healthcare data platform with private connectivity and HIPAA, NIST 800-53, and CIS policy controls implemented in Bicep",
+        "Architected a three-environment Azure data platform for a regulated commercial bank using Synapse Analytics, Data Factory, ADLS Gen2, and Key Vault with private-link networking and Synapse CI/CD promotion",
+        "Modernized 200 to 2,000 user VDI estates to Azure Virtual Desktop, migrating off VMware Horizon and Citrix with and without Nerdio and owning host pool, FSLogix, image, and autoscale design",
+        "Reset a contentious healthcare file-share to SharePoint Online migration, building a Power Query model over 800+ inventory exports and 9+ million file records for scope, blockers, and remediation",
+        "Built a VMware-to-Azure migration strategy for 2,000+ workloads with 7R dispositions for 200+ applications, executed a subset with Azure Migrate, and enabled the client cloud team to continue independently"
       ],
-      technologies: ["Azure", "Bicep", "Terraform", "Azure DevOps", "Azure OpenAI", "VMware", "PowerShell"],
-      aiContext: "At Slalom, Rob serves as a Senior Consultant and Azure Infrastructure Architect, leading complex cloud transformation projects. His current focus includes a major automotive migration involving 2000+ workloads from VMware to Azure, leveraging the 7R migration methodology. He's also been instrumental in integrating Azure OpenAI capabilities into DevOps workflows."
+      technologies: ["Azure", "Bicep", "Terraform", "Azure DevOps", "Databricks", "Synapse", "Data Factory", "AVD", "Nerdio", "FSLogix", "Azure Migrate", "Power Query"],
+      aiContext: "At Slalom, Rob uses AI-assisted engineering workflows to accelerate solution research, documentation, IaC drafting, and validation while keeping final decisions grounded in source documentation, client constraints, and implementation evidence."
     },
     {
-      id: "stellantis",
-      company: "Stellantis",
-      title: "Cloud Architect",
+      id: "fca-stellantis",
+      company: "FCA (now Stellantis)",
+      title: "Infrastructure Cloud Architect",
       location: "Detroit Metropolitan Area",
-      startDate: "Jul 2019",
-      endDate: "Apr 2022",
-      duration: "2 yrs 10 mos",
-      type: "Contract",
-      description: "Sr Azure Cloud Infrastructure Architecture, with focus on gathering project requirements and translating them into solutions to best leverage Azure cloud services.",
+      startDate: "2019",
+      endDate: "2022",
+      duration: "3 yrs",
+      type: "Full-time",
+      description: "Azure infrastructure architecture and cloud solution design for enterprise automotive application teams.",
       highlights: [
-        "Designed Azure infrastructure solutions for enterprise automotive systems",
-        "Translated complex business requirements into cloud architecture",
-        "Implemented governance and compliance frameworks",
-        "Collaborated with global teams on infrastructure standardization"
+        "Designed Azure solutions for application teams across multiple business groups, covering new builds, upgrades, and migrations",
+        "Integrated PoC-approved designs with enterprise CI/CD",
+        "Managed on-premises Windows and Linux servers, Active Directory, and SQL Server estates, integrating them with the enterprise Azure environment",
+        "Standardized enterprise Azure foundation and delivery practices, including deployment standards, IaC and CI/CD pipeline patterns, and VM image build and maintenance processes",
+        "Served as lead Azure architect and mentor to multiple junior engineers"
       ],
-      technologies: ["Azure", "Azure DevOps", "Infrastructure as Code", "Networking", "Security"],
-      aiContext: "At Stellantis (major automotive manufacturer), Rob worked as a contract Cloud Architect focusing on enterprise Azure infrastructure. He was responsible for translating complex business and technical requirements into scalable Azure solutions that met automotive industry compliance requirements."
+      technologies: ["Azure", "Azure DevOps", "Infrastructure as Code", "CI/CD", "Windows Server", "Linux", "Active Directory", "SQL Server"],
+      aiContext: "This role established Rob's enterprise Azure foundation, application-team enablement, cloud standards, and mentoring experience before his Slalom consulting work."
     },
     {
       id: "va",
       company: "U.S. Department of Veterans Affairs",
-      title: "System Architect @ Initiate Government Solutions, LLC",
+      title: "System Architect",
       location: "Virtual Remote Office",
-      startDate: "Dec 2017",
-      endDate: "Jun 2019",
-      duration: "1 yr 7 mos",
+      startDate: "2017",
+      endDate: "2019",
+      duration: "2 yrs",
       type: "Contract",
-      description: "Worked with the Project Management Office (PMO) team to document and model system requirements for both new and existing systems following federal government standards.",
+      description: "Hybrid infrastructure architecture for government healthcare data environments spanning data center, remote locations, and Azure Government.",
       highlights: [
-        "Documented and modeled system requirements for VA systems",
-        "Worked with Azure Government cloud (FedRAMP compliance)",
-        "Collaborated with PMO on system architecture documentation",
-        "Ensured compliance with federal government IT standards"
+        "Architected hybrid infrastructure for a corporate data warehouse sourced from a primary EMR",
+        "Provided oversight across server, storage, backup, network, Hyper-V, Azure Government, and cloud resources",
+        "Documented current and future-state architecture across primary data center, remote locations, and cloud",
+        "Proposed architecture solutions to support growth, improve flexibility, and resolve failure points",
+        "Held Public Trust clearance"
       ],
-      technologies: ["Azure Government", "System Architecture", "FedRAMP", "Documentation"],
-      aiContext: "Rob worked as a System Architect supporting the U.S. Department of Veterans Affairs, one of the largest federal agencies. This role required working within strict FedRAMP compliance requirements and Azure Government cloud environments, demonstrating his ability to navigate complex regulatory frameworks."
+      technologies: ["Azure Government", "System Architecture", "Hyper-V", "Data Warehouse", "Networking", "Backup", "Documentation"],
+      aiContext: "This work adds regulated public-sector and Azure Government context to Rob's broader Azure and infrastructure architecture experience."
     },
     {
       id: "sungard",
-      company: "Sungard Availability Services",
-      title: "Recovery Solution Architect",
+      company: "Sungard AS",
+      title: "Recovery Solutions Architect - Managed Recovery Program",
       location: "Virtual Remote Office",
       startDate: "Dec 2015",
       endDate: "Apr 2017",
       duration: "1 yr 5 mos",
       type: "Full-time",
-      description: "Primary role was to lead and manage large projects with various groups in a global environment for multiple customers. Responsible for disaster recovery and business continuity solution design.",
+      description: "Disaster recovery architecture and managed recovery solution design for enterprise customers.",
       highlights: [
-        "Led large-scale disaster recovery projects globally",
-        "Designed business continuity solutions for enterprise clients",
-        "Managed complex projects across multiple customer accounts",
-        "Architected recovery solutions ensuring minimal downtime"
+        "Led disaster recovery architecture for managed recovery customers",
+        "Translated application requirements into recoverable architectures aligned to RTO/RPO and steady-state operating needs",
+        "Served as technical leader and single point of ownership during transition and steady state",
+        "Developed customer-facing architecture and recovery strategy documentation",
+        "Designed AWS, SungardAS Cloud, and customized recovery or replication solutions"
       ],
-      technologies: ["Disaster Recovery", "Business Continuity", "VMware", "Storage Solutions", "Networking"],
-      aiContext: "At Sungard Availability Services, Rob served as a Recovery Solution Architect, specializing in disaster recovery and business continuity planning. This role honed his skills in designing resilient infrastructure that can withstand and recover from failures - expertise that directly translates to cloud architecture best practices."
+      technologies: ["Disaster Recovery", "Business Continuity", "AWS", "SungardAS Cloud", "Replication", "VMware", "Storage", "Networking"],
+      aiContext: "This role deepened Rob's ability to reason about resilience, RTO/RPO, recovery design, and operational ownership."
     },
     {
       id: "ibm",
@@ -235,63 +292,63 @@ export const profile: Profile = {
       endDate: "Dec 2015",
       duration: "11 yrs 10 mos",
       type: "Full-time",
-      description: "As an Enterprise Architect, areas of expertise and responsibility include midrange infrastructure and server delivery using Windows and various enterprise platforms.",
+      description: "Enterprise infrastructure architecture, managed services technical leadership, legacy modernization, migration, and recovery design across global accounts.",
       highlights: [
-        "Enterprise Architect for major client accounts including CCE",
-        "Led infrastructure architecture for Windows and midrange systems",
-        "Managed global technical teams and complex implementations",
-        "Developed strategy and architecture for infrastructure modernization",
-        "Delivered solutions across diverse enterprise environments"
+        "Co-led SAP ECC replatform from AIX/DB2 mainframe to SLES Linux on VMware, including DR design using storage and server replication to support 1-hour RPO and 5-hour RTO targets",
+        "Led enterprise architecture and technical delivery across global managed services teams, including 30+ resources",
+        "Solutioned approximately 250 annual service requests generating about $1.5M per year in additional approved revenue",
+        "Helped turn around troubled delivery environments through issue resolution, maintenance process redesign, patching improvements, security/audit practices, and customer trust rebuilding",
+        "Supported multiple enterprise accounts across manufacturing, utility, medical device, automotive, retail, and distribution environments"
       ],
-      technologies: ["Windows Server", "Enterprise Infrastructure", "Virtualization", "Storage", "Networking", "DB2"],
-      aiContext: "Rob spent nearly 12 years at IBM Global Services, progressing to IT Infrastructure Architect and Technical Lead. This extensive tenure provided deep enterprise architecture experience across diverse client environments and technologies, building the foundation for his cloud architecture expertise."
+      technologies: ["Windows Server", "Linux", "AIX", "DB2", "SAP ECC", "VMware", "Storage", "Networking", "Enterprise Infrastructure"],
+      aiContext: "Rob spent nearly 12 years at IBM Global Services, building the enterprise architecture, technical leadership, modernization, and recovery-design foundation behind his later cloud architecture work."
     }
   ],
   recommendations: [
     {
-      name: "Joseph Panayiotou",
-      title: "Senior Staff Customer Experience Architect | Nutanix Professional Services",
-      date: "July 1, 2019",
-      relationship: "Joseph reported directly to Rob",
-      text: "My name is Joseph Panayiotou and proud to offer my recommendation of Rob Weatherly to whom I have personally known and worked with for 15 years. During my relationship with Rob Weatherly I have experienced an individual who shows up earlier than asked, works hard, and carries themselves professionally."
+      name: "Recommendation Theme",
+      title: "Supervisory architecture and strategy",
+      date: "Public summary",
+      relationship: "Summarized from public recommendation evidence",
+      text: "Recommendation evidence supports strong supervisory architecture and strategy capability, especially in difficult client and service-provider situations."
     },
     {
-      name: "Christopher Mullins (MSc IT)",
-      title: "Assistant Director (Sr. Security Transition Manager) at EY InfoSec",
-      date: "June 25, 2013",
-      relationship: "Christopher Mullins was Rob's client",
-      text: "I worked with Rob on the CCE/IBM account in Atlanta and would highly recommend him for Supervisory Architecture work in Strategy and Operations. I consider Rob one of the best in the industry at his job! Rob and I worked, struggled, and overcame many obstacles and difficult client/service provider situations in the last year regarding IT, Infrastructure, server selection, service delivery and cloud strategies. I could always count on him to make executive/cut thru the red tape/accurate and at times, Genius, decisions regarding our work together."
+      name: "Recommendation Theme",
+      title: "Executive decision-making and delivery friction",
+      date: "Public summary",
+      relationship: "Summarized from public recommendation evidence",
+      text: "Recommendation evidence supports executive-level decision-making, ability to cut through delivery friction, long-term professionalism, reliability, and work ethic."
     }
   ],
   demoResponses: [
     {
       question: "What are Rob's key strengths?",
-      answer: "Rob's core strengths lie in Azure Cloud Architecture with 8+ years of focused experience, Infrastructure as Code (Bicep/Terraform), and technical team leadership. He excels at translating complex business requirements into scalable cloud solutions, as demonstrated by his lead role in a 2000+ workload VMware to Azure migration at Stellantis through Slalom."
+      answer: "Rob's core strengths are Azure infrastructure architecture, CAF-aligned cloud foundation design, private networking, security governance, infrastructure as code, and senior client-facing delivery leadership. He is strongest in ambiguous or contentious environments where the technical path, stakeholder alignment, and operational handoff all need to be reset."
     },
     {
       question: "What experience does Rob have with cloud migrations?",
-      answer: "Rob has extensive cloud migration experience, most notably leading a major VMware to Azure migration involving 2000+ workloads for an automotive client. He's well-versed in the 7R migration methodology and has experience with both lift-and-shift and modernization approaches. His background at Sungard in disaster recovery also provides unique insight into ensuring business continuity during migrations."
+      answer: "Rob has built a VMware-to-Azure migration strategy for 2,000+ workloads with 7R dispositions for 200+ applications, executed a subset using Azure Migrate, and enabled the client cloud team to continue independently. He also has SharePoint Online migration planning experience using Power Query analysis over 800+ exports and 9+ million file records."
     },
     {
       question: "How does Rob approach DevOps and automation?",
-      answer: "Rob takes a comprehensive approach to DevOps, combining Infrastructure as Code (Bicep, Terraform) with robust CI/CD pipelines using Azure DevOps and GitHub. He's recently expanded into AI-assisted DevOps, integrating Azure OpenAI with GPT to enhance automation capabilities. His focus is always on creating repeatable, maintainable infrastructure that enables rapid deployment while maintaining security standards."
+      answer: "Rob focuses on repeatable, client-owned delivery paths: Bicep and ARM templates, Terraform exposure, Azure DevOps, GitHub, release pipelines, environment parameterization, Key Vault-backed configuration, deployment runbooks, and operational handoff. He uses AI-assisted workflows to accelerate research, documentation, IaC drafting, and validation without replacing tested implementation."
     },
     {
       question: "What's Rob's experience with security and compliance?",
-      answer: "Rob has strong security architecture experience, including work with Azure Government environments requiring FedRAMP compliance during his time supporting the U.S. Department of Veterans Affairs. He regularly conducts security architecture reviews and compliance assessments, and designs solutions with security as a foundational principle rather than an afterthought."
+      answer: "Rob has designed regulated Azure foundations with private connectivity, Azure Firewall Premium, Private Link, Private DNS Resolver, Key Vault, managed identities, RBAC/PIM, Conditional Access, Defender for Cloud, Log Analytics, and Azure Policy guardrails. His work includes healthcare, financial services, public-sector, and Azure Government contexts."
     },
     {
       question: "Is Rob a good fit for a technical leadership role?",
-      answer: "Absolutely. Rob has demonstrated technical leadership throughout his career, from managing global teams at IBM for nearly 12 years to leading complex cloud transformation initiatives at Slalom. His recommendations highlight his ability to make executive decisions, work through obstacles, and deliver results. He combines deep technical expertise with strong communication skills and client engagement experience."
+      answer: "Yes, when the role needs hands-on architecture plus delivery leadership. Rob has led global technical resources, mentored junior engineers, reset troubled delivery situations, aligned executive/security/operations/engineering stakeholders, and left behind runbooks and repeatable delivery models that client teams can operate."
     }
   ],
   keyHighlights: [
-    "20+ years IT infrastructure experience",
-    "8+ years focused Azure cloud architecture",
-    "Led 2000+ workload VMware to Azure migration",
-    "Azure Government & FedRAMP experience",
-    "DevOps & IaC expertise (Bicep, Terraform)",
-    "Global technical team leadership"
+    "25 years IT infrastructure experience",
+    "8 years focused Azure architecture",
+    "CAF-aligned landing zones for regulated environments",
+    "2,000+ workload VMware-to-Azure migration strategy",
+    "AVD modernization for 200 to 2,000 user estates",
+    "DevOps & IaC expertise across Bicep, ARM, Terraform, Azure DevOps and GitHub"
   ]
 };
 

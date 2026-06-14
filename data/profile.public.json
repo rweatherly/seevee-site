@@ -1,277 +1,154 @@
 {
-  "schemaVersion": "2026-06-13",
+  "schemaVersion": "2026-06-14",
+  "sourceSync": {
+    "sourceFile": "Rob_Weatherly_Extended_Resume_Data.md",
+    "sourceModified": "2026-06-14 16:55 Eastern",
+    "notes": [
+      "Public-safe refresh only; private evidence, client names, local paths, and Notion/source trails are excluded.",
+      "Final 2026 Word resume is canonical when older site data conflicts with this data.",
+      "This data is intended for a content refresh that preserves the site's current layout before any redesign work."
+    ]
+  },
   "profile": {
     "name": "Rob Weatherly",
-    "title": "Azure Architecture | Cloud Foundation Design | Lead Technical Engineering",
-    "location": "United States",
+    "title": "Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering",
+    "location": "Metro Detroit, MI",
+    "email": "r.weatherly@gmail.com",
     "linkedIn": "https://www.linkedin.com/in/rob-weatherly/",
     "summary": [
-      "Azure-focused infrastructure architect and lead technical engineer with 25 years in IT and roughly 8 years focused on Azure architecture, implementation, migration, and operations.",
-      "Designs and builds Cloud Adoption Framework aligned Azure foundations for regulated and complex environments, with strengths in landing zones, hub-and-spoke networking, private connectivity, security governance, infrastructure as code, and operational handoff.",
-      "Known for being brought into ambiguous or difficult situations where the technical path, client trust, or delivery model needs to be reset. Strong client-facing operator who can defuse contentious conversations, clarify decision boundaries, challenge weak assumptions, and align engineering, security, operations, and executive stakeholders around a practical plan.",
-      "Uses AI as a force multiplier for solution design, research validation, documentation, and Bicep/IaC development while keeping final technical decisions grounded in evidence and tested implementation."
+      "Infrastructure architect and lead engineer with 25 years in IT and roughly 8 years focused on Azure architecture, implementation, migration, and operations.",
+      "Designs and builds Cloud Adoption Framework aligned Azure infrastructure for regulated, complex environments across landing zones, private networking, security governance, hybrid integration, infrastructure as code, and operational handoff.",
+      "Known for entering ambiguous or contentious situations where the technical path or client trust has to be reset, challenging weak assumptions, defining the real decisions, and aligning stakeholders around a workable plan.",
+      "Uses AI as a force multiplier for design, research validation, documentation, and infrastructure as code while keeping final decisions grounded in tested implementation."
     ],
     "targetRoles": [
+      "Azure Infrastructure Architect",
+      "Lead Cloud Engineer",
+      "Lead Technical Engineer",
       "Azure Architect",
       "Cloud Foundation Architect",
-      "Lead Azure Engineer",
-      "Azure Infrastructure Architect",
-      "Senior Technical Consultant",
-      "Cloud Solutions Architect",
-      "Azure Practice Lead"
+      "Senior Technical Consultant"
     ]
   },
   "skills": [
     {
       "category": "Azure Architecture",
-      "items": [
-        "Azure landing zones",
-        "Cloud Adoption Framework",
-        "management groups",
-        "subscription design",
-        "hub-and-spoke networking",
-        "hybrid connectivity",
-        "Azure Firewall",
-        "Private Link",
-        "Private DNS Resolver",
-        "VPN Gateway",
-        "Bastion",
-        "Azure Policy",
-        "Defender for Cloud",
-        "Log Analytics",
-        "Key Vault",
-        "managed identities",
-        "RBAC",
-        "PIM",
-        "Conditional Access",
-        "Entra ID",
-        "Azure Monitor",
-        "backup and disaster recovery"
-      ]
+      "items": ["Azure landing zones", "Cloud Adoption Framework", "management groups", "subscription design", "hub-and-spoke networks", "hybrid connectivity", "Azure Firewall Premium", "forced tunneling", "UDRs", "Private Link", "Private DNS Resolver", "VPN Gateway", "ExpressRoute evaluation", "Bastion", "Azure Virtual Network Manager", "Azure Policy", "Defender for Cloud", "Log Analytics", "Key Vault", "managed identities", "RBAC", "PIM", "Conditional Access", "Entra ID", "Azure Monitor baseline alerts", "backup and disaster recovery", "cold-region recovery via IaC", "on-premises Windows/Linux/SQL Server integration", "hybrid DNS"]
     },
     {
       "category": "Data Platform Infrastructure",
-      "items": [
-        "Azure Databricks infrastructure",
-        "VNet injection",
-        "no-public-IP workspaces",
-        "private endpoints",
-        "Unity Catalog infrastructure boundaries",
-        "ADLS Gen2",
-        "CMK-backed storage",
-        "Synapse Analytics",
-        "Data Factory",
-        "self-hosted integration runtime",
-        "Snowflake integration points",
-        "dbt enablement",
-        "Synapse CI/CD",
-        "ARM and Bicep parameterization"
-      ]
+      "items": ["Azure Databricks infrastructure", "Network Connectivity Configuration", "VNet injection", "no-public-IP workspaces", "private endpoints", "Unity Catalog infrastructure boundaries", "ADLS Gen2", "CMK-backed storage", "Synapse Analytics", "Data Factory", "self-hosted integration runtime", "Snowflake integration points", "dbt enablement", "Graph API notification patterns", "Synapse CI/CD", "ARM and Bicep parameterization", "Application Gateway Private Link", "Azure OpenAI"]
     },
     {
       "category": "DevOps and IaC",
-      "items": [
-        "Bicep",
-        "ARM templates",
-        "Azure DevOps",
-        "GitHub",
-        "CI/CD pipelines",
-        "trunk-based branching",
-        "environment parameterization",
-        "variable groups",
-        "Key Vault overrides",
-        "PowerShell",
-        "Bash",
-        "Python",
-        "pipeline service connections",
-        "managed identities",
-        "deployment runbooks",
-        "technical documentation",
-        "knowledge transfer"
-      ]
+      "items": ["Bicep", "ARM templates", "Azure Verified Modules exposure", "Deployment Stacks decisioning", "Terraform", "Azure DevOps", "Classic Release Pipelines", "GitHub", "CI/CD pipelines", "trunk-based branching", "environment parameterization", "variable groups", "Key Vault overrides", "PowerShell", "Bash", "Python", "pipeline service connections", "managed identities", "manual-to-IaC modernization", "containerization", "VM image build and maintenance processes", "deployment runbooks", "technical documentation", "knowledge transfer"]
     },
     {
-      "category": "Migration and Assessment",
-      "items": [
-        "Azure Migrate",
-        "VMware-to-Azure migration planning",
-        "7R migration strategy",
-        "large workload portfolio analysis",
-        "cloud security assessments",
-        "landing zone assessments",
-        "Azure infrastructure review",
-        "network segmentation review",
-        "orphaned resource and cost analysis",
-        "SharePoint Online migration planning",
-        "file-share metadata analysis",
-        "Power Query",
-        "NTFS permission extraction",
-        "archival and migration decision frameworks"
-      ]
+      "category": "Migration, VDI, and Assessment",
+      "items": ["Azure Migrate", "VMware-to-Azure migration planning", "7R migration strategy", "large workload portfolio analysis", "Azure Virtual Desktop", "VDI modernization", "VMware Horizon to AVD migration", "Citrix to AVD migration", "Nerdio-enabled AVD operations", "FSLogix profile storage", "host pools", "autoscale", "image management", "landing-zone assessments", "cloud security assessments", "Azure infrastructure review", "network segmentation review", "orphaned resource and cost analysis", "SharePoint Online migration planning", "ShareGate", "file-share metadata analysis", "Power Query", "NTFS permission extraction", "archival and migration decision frameworks"]
     },
     {
       "category": "Client and Delivery Leadership",
-      "items": [
-        "discovery facilitation",
-        "executive stakeholder alignment",
-        "engineering stakeholder alignment",
-        "contentious client relationship repair",
-        "scope reset",
-        "decision framing",
-        "technical facilitation",
-        "runbooks",
-        "remediation prioritization",
-        "global team leadership",
-        "SWAT and outage support",
-        "operational handoff"
-      ]
+      "items": ["discovery facilitation", "executive stakeholder alignment", "engineering stakeholder alignment", "contentious client relationship repair", "scope reset", "decision framing", "technical facilitation", "documentation", "runbooks", "remediation prioritization", "global team leadership", "SWAT and outage support", "operational handoff"]
     }
   ],
   "experience": [
     {
+      "id": "slalom",
       "company": "Slalom",
-      "title": "Senior Consultant / Azure Infrastructure Architect",
-      "startDate": "Apr 2022",
+      "title": "Senior Consultant and Azure Infrastructure Architect",
+      "startDate": "May 2022",
       "endDate": "Present",
-      "summary": "Azure architecture, cloud foundation implementation, regulated platform design, migration strategy, DevOps/IaC patterns, and client-facing technical leadership.",
+      "summary": "Azure infrastructure architecture, cloud foundation implementation, regulated platform design, migration and VDI modernization, DevOps/IaC patterns, and client-facing technical leadership.",
       "bullets": [
-        "Architect and implement Cloud Adoption Framework aligned Azure foundations for regulated environments, translating business, security, identity, network, compliance, and operations requirements into landing-zone designs, Bicep modules, deployment runbooks, and operational handoff.",
-        "Build private-first Azure platform architectures across networking, hybrid connectivity, identity, encryption, observability, security posture management, and governance using landing-zone patterns and service-native controls for regulated workloads.",
-        "Lead complex Azure troubleshooting in under-documented environments, isolating failures across DNS, UDRs, firewall policy, private endpoints, Databricks connectivity, managed identities, Key Vault access, and environment isolation.",
-        "Create secure data-platform foundations across analytics, integration, storage, secrets management, and deployment layers, enabling data engineering teams through repeatable Dev/Test/Prod CI/CD patterns and operational handoff.",
-        "Design infrastructure deployment models with Azure DevOps, GitHub, ARM/Bicep, parameterized templates, variable groups, Key Vault overrides, and branch/promotion patterns that client teams can operate after handoff.",
-        "Turn regulatory and security expectations into practical controls, including Private Link adoption, least-privilege RBAC, managed identities, storage-key lockdown, diagnostic settings, encryption strategy, privileged-access review, and audit-ready evidence.",
-        "Assess and modernize Azure/infrastructure estates across landing-zone maturity, network segmentation, IAM, monitoring, backup/DR, cost hygiene, orphaned resources, private endpoint/DNS gaps, and migration readiness; developed Azure migration strategy for 2,000+ VMware workloads and 200+ application dispositions.",
-        "Reset troubled delivery situations by challenging unrealistic assumptions, reframing ambiguous scope into executable workstreams, building repeatable analysis tooling, and aligning technical and business stakeholders around defensible decisions.",
-        "Use AI-assisted engineering workflows to accelerate solution research, documentation, architecture validation, and IaC drafting while keeping final decisions grounded in source documentation, implementation tests, and client constraints."
+        "Brought in as the architect for ambiguous, unfamiliar, or stalled engagements, turning new platforms and compliance regimes into executable architecture decisions and client-owned runbooks.",
+        "Architected and deployed a greenfield CAF-aligned Azure landing zone for a regulated healthcare data platform with private connectivity and HIPAA, NIST 800-53, and CIS policy controls implemented in Bicep.",
+        "Advised clients on integrating on-premises Windows, Linux, and SQL Server estates with Azure, designing ExpressRoute and VPN connectivity, hybrid DNS resolution, and Entra ID integration with on-premises AD.",
+        "Architected a three-environment Azure data platform for a regulated commercial bank using Synapse Analytics, Data Factory, ADLS Gen2, and Key Vault with private-link networking and Synapse CI/CD promotion.",
+        "Owned DevOps and Azure infrastructure for cloud-native web applications using Front Door, App Services, Azure SQL, and Functions, maintaining CI/CD pipelines and delivering updates.",
+        "Modernized 200 to 2,000 user VDI estates to Azure Virtual Desktop, migrating off VMware Horizon and Citrix with and without Nerdio and owning host pool, FSLogix, image, and autoscale design.",
+        "Reset a contentious healthcare file-share to SharePoint Online migration, building a Power Query model over 800+ inventory exports and 9+ million file records for scope, blockers, and remediation.",
+        "Built a VMware-to-Azure migration strategy for 2,000+ workloads with 7R dispositions for 200+ applications, executed a subset with Azure Migrate, and enabled the client cloud team to continue independently."
       ]
     },
     {
-      "company": "Earlier Infrastructure, Cloud, and Recovery Architecture Roles",
-      "title": "Infrastructure Cloud Architect / System Architect / Recovery Solutions Architect / Enterprise Architect / Technical Lead",
-      "startDate": "2004",
+      "id": "fca-stellantis",
+      "company": "FCA (now Stellantis)",
+      "title": "Infrastructure Cloud Architect",
+      "startDate": "2019",
       "endDate": "2022",
-      "summary": "Infrastructure, cloud, recovery, managed services, and enterprise architecture roles across automotive, healthcare/government data, disaster recovery, managed services, and outsourcing environments.",
+      "summary": "Azure infrastructure architecture and cloud solution design for enterprise automotive application teams.",
       "bullets": [
-        "Managed Azure resources and architecture for business intelligence and data warehouse environments, including server, storage, backup, network, Hyper-V, Azure Government, and primary data center integration.",
-        "Led recovery architecture for managed disaster recovery customers, designing recoverable application environments aligned to RTO/RPO requirements and improving long-term business continuity posture.",
-        "Served as enterprise architect and technical lead for global managed services accounts, leading 30+ domestic and global technical resources, solutioning dozens of annual service requests, and generating roughly $1.5M per year in additional approved contract revenue on a major account.",
-        "Co-led SAP ECC migration from AIX/DB2 mainframe infrastructure to SLES Linux on VMware, with DR design using storage and server replication technologies to support 1-hour RPO and 5-hour RTO targets.",
-        "Helped turn around troubled delivery environments by improving issue resolution, maintenance processes, security/audit practices, and customer trust, including maintaining 9/10 customer satisfaction across multiple years on a major utility account."
+        "Designed Azure solutions for application teams across multiple business groups, covering new builds, upgrades, and migrations, and integrated PoC-approved designs with enterprise CI/CD.",
+        "Managed on-premises Windows and Linux servers, Active Directory, and SQL Server estates, and integrated them with the enterprise Azure environment.",
+        "Standardized the enterprise Azure foundation and delivery practices, defining deployment standards, IaC and CI/CD pipeline patterns, and VM image build and maintenance processes.",
+        "Served as lead Azure architect and mentor to multiple junior engineers, raising the team's Azure and DevOps capability."
+      ]
+    },
+    {
+      "id": "government-healthcare-data",
+      "company": "U.S. Department of Veterans Affairs",
+      "title": "System Architect",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "Hybrid infrastructure architecture for government healthcare data environments spanning data center, remote locations, and Azure Government.",
+      "bullets": [
+        "Architected hybrid infrastructure for a corporate data warehouse sourced from a primary EMR, spanning the primary data center, remote locations, and Azure Government.",
+        "Documented current and future-state architecture and proposed solutions to support growth, improve flexibility, and resolve failure points.",
+        "Held Public Trust clearance."
+      ]
+    },
+    {
+      "id": "sungard-as",
+      "company": "Sungard AS",
+      "title": "Recovery Solutions Architect - Managed Recovery Program",
+      "startDate": "Dec 2015",
+      "endDate": "Apr 2017",
+      "summary": "Disaster recovery architecture and managed recovery solution design for enterprise customers.",
+      "bullets": [
+        "Led disaster recovery architecture for managed recovery customers, translating application requirements into recoverable architectures aligned to RTO/RPO and steady-state operating needs.",
+        "Served as technical leader and single point of ownership during transition and steady state.",
+        "Developed customer-facing architecture and recovery strategy documentation for AWS, SungardAS Cloud, and customized recovery or replication solutions."
+      ]
+    },
+    {
+      "id": "ibm-global-services",
+      "company": "IBM Global Services",
+      "title": "IT Infrastructure Architect and Technical Lead",
+      "startDate": "Mar 2004",
+      "endDate": "Dec 2015",
+      "summary": "Enterprise infrastructure architecture, managed services technical leadership, legacy modernization, migration, and recovery design across global accounts.",
+      "bullets": [
+        "Co-led SAP ECC replatform from AIX/DB2 mainframe to SLES Linux on VMware, including DR design using storage and server replication to support 1-hour RPO and 5-hour RTO targets.",
+        "Led enterprise architecture and technical delivery across global managed services teams, including 30+ resources and approximately 250 annual service requests generating about $1.5M per year in additional approved revenue.",
+        "Helped turn around troubled delivery environments through issue resolution, maintenance process redesign, patching improvements, security/audit practices, and customer trust rebuilding."
       ]
     }
   ],
   "engagementPortfolio": [
-    {
-      "label": "Regulated Healthcare Cloud Foundation",
-      "publicRole": "Lead Azure Cloud Foundation Architect",
-      "summary": "Greenfield Azure landing zone and Databricks-centric data platform foundation for a regulated healthcare data modernization effort.",
-      "capabilities": [
-        "CAF-aligned landing zone design",
-        "private-first platform architecture",
-        "hybrid connectivity and private DNS",
-        "centralized firewall inspection",
-        "management group governance",
-        "Azure Policy guardrails",
-        "observability and Defender for Cloud",
-        "Key Vault and CMK-backed storage",
-        "Bicep-based infrastructure",
-        "Databricks environment isolation",
-        "architecture documentation and operational handoff"
-      ]
-    },
-    {
-      "label": "Regulated Financial Services Data Platform",
-      "publicRole": "Azure Infrastructure / Platform Architect",
-      "summary": "Azure platform foundation for a regulated financial services data platform with secure Dev/Test/Prod deployment patterns.",
-      "capabilities": [
-        "Synapse and Data Factory foundation",
-        "ADLS Gen2 and Key Vault integration",
-        "self-hosted integration runtime",
-        "managed private endpoint promotion",
-        "ARM template parameterization",
-        "Azure DevOps release pipelines",
-        "private networking and least-privilege controls",
-        "managed identity remediation",
-        "logging and Defender posture",
-        "encryption strategy"
-      ]
-    },
-    {
-      "label": "Healthcare File Share to SharePoint Online Migration Planning",
-      "publicRole": "Technical Strategy / Migration Analysis Lead",
-      "summary": "Large migration planning effort involving 800+ inventory exports and 9M+ file records, reframed into practical migration, archive, delete, and ownership decisions.",
-      "capabilities": [
-        "Power Query analysis tooling",
-        "file metadata analysis",
-        "ShareGate export review",
-        "NTFS permission discovery",
-        "PII/PHI tooling evaluation",
-        "stakeholder decision framing"
-      ]
-    },
-    {
-      "label": "Azure Infrastructure and Security Assessments",
-      "publicRole": "Azure Assessment Lead / Cloud Security Architect",
-      "summary": "Azure estate and network security assessments covering maturity, risk, cost, and remediation priorities.",
-      "capabilities": [
-        "landing zone maturity assessment",
-        "network segmentation review",
-        "IAM review",
-        "monitoring and backup/DR review",
-        "private endpoint and DNS review",
-        "privileged access review",
-        "executive-ready findings",
-        "practical remediation planning"
-      ]
-    },
-    {
-      "label": "VMware-to-Azure Migration Strategy",
-      "publicRole": "Azure Migration Architect",
-      "summary": "Migration strategy for 2,000+ VMware workloads and 200+ application disposition patterns.",
-      "capabilities": [
-        "Azure Migrate tooling",
-        "7R methodology",
-        "portfolio analysis",
-        "migration wave strategy",
-        "target Azure planning",
-        "documentation",
-        "client cloud team enablement"
-      ]
-    },
-    {
-      "label": "Azure-Native Application Delivery",
-      "publicRole": "DevOps / Azure Engineer",
-      "summary": "Azure-native application delivery and DevOps support across app hosting, identity, data, and AI-enabled application patterns.",
-      "capabilities": [
-        "CI/CD pipeline maintenance",
-        "App Services",
-        "Azure SQL",
-        "Functions",
-        "Front Door",
-        "identity integration",
-        "Azure OpenAI GPT models",
-        "embeddings"
-      ]
-    }
+    {"label": "Regulated Healthcare Azure Cloud Foundation / Databricks Platform", "publicRole": "Lead Azure Cloud Foundation Architect", "summary": "Greenfield CAF-aligned Azure landing zone and Databricks-centric data platform foundation for a regulated healthcare data modernization effort.", "capabilities": ["multi-subscription management-group hierarchy", "hub-and-spoke networking", "private-endpoint-only services", "Azure Firewall Premium", "site-to-site VPN", "Private DNS Resolver", "Entra ID/PIM/Conditional Access", "HIPAA/NIST/CIS-oriented Azure Policy", "Log Analytics and SIEM integration", "Defender for Cloud", "Bicep", "Azure DevOps", "Databricks dev/QA/prod", "ADLS Gen2 with Key Vault CMK", "Unity Catalog infrastructure boundaries", "runbooks and operational handoff"]},
+    {"label": "Regulated Financial Services Data Foundation Platform", "publicRole": "Azure Infrastructure and Platform Architect", "summary": "Three-environment Azure data platform foundation for a regulated commercial bank.", "capabilities": ["Synapse Analytics", "Data Factory", "ADLS Gen2", "Key Vault", "self-hosted integration runtime", "Private Link across Dev/Test/Prod", "GitHub", "Azure DevOps Classic Release Pipelines", "ARM template parameterization", "managed private endpoint promotion workaround", "PMK/CMK/CPK strategy", "SOX/GLBA/FFIEC/PCI DSS/ISO 27001 mapping"]},
+    {"label": "Healthcare File Share to SharePoint Online Migration Planning", "publicRole": "Migration Lead / Solution Architect", "summary": "Large file-share migration assessment and planning effort involving a 400 TB shared-drive estate, 800+ inventory exports, and 9+ million file records.", "capabilities": ["department-wave migration model", "Power Query and Excel data model", "SharePoint blocker detection", "PowerShell NTFS permission collection", "ShareGate evaluation", "PII/PHI scanning evaluation", "migration/archive/delete framework", "WAN transfer estimate model"]},
+    {"label": "Azure Infrastructure and Security Assessments", "publicRole": "Azure Infrastructure and Security Assessment Lead", "summary": "Azure estate and network security assessments covering maturity, IAM, segmentation, cost, operations, backup/DR, security posture, and privileged access.", "capabilities": ["cloud assessment interviews", "executive summary and technical findings", "cost and orphaned resource review", "Azure Hybrid Benefit review", "privileged access review", "DNS/private endpoint gap analysis", "DR documentation gap analysis"]},
+    {"label": "Public-Sector Mobile ID Azure Architecture Planning", "publicRole": "Azure Architecture SME", "summary": "Architecture advisory for migration of a public-sector mobile identity application from on-premises to Azure.", "capabilities": ["hub-and-spoke model", "ExpressRoute/VPN tradeoffs", "Application Gateway with WAF", "AKS egress", "Azure Firewall", "Azure PostgreSQL DR replica", "Cosmos DB MongoDB API", "Key Vault and HSM/certificate considerations", "DR sequencing"]},
+    {"label": "VMware-to-Azure Migration Strategy", "publicRole": "Azure Migration Architect", "summary": "Migration strategy for 2,000+ VMware workloads and 200+ application disposition patterns.", "capabilities": ["Azure Migrate", "7R methodology", "portfolio analysis", "application migration patterns", "migration waves", "target Azure planning", "client cloud team enablement"]},
+    {"label": "Azure Virtual Desktop / VDI Modernization", "publicRole": "Azure Virtual Desktop Architect / End-User Compute Modernization Lead", "summary": "AVD modernization across multiple Slalom-era projects with 200 to 2,000 user environments, migrating from VMware Horizon and Citrix with and without Nerdio.", "capabilities": ["AVD architecture", "Horizon to AVD", "Citrix to AVD", "Nerdio and non-Nerdio patterns", "host pools", "FSLogix", "image management", "autoscale", "profile storage"]},
+    {"label": "Azure-Native Application / Damage Claims Management", "publicRole": "DevOps / Azure Engineer", "summary": "DevOps and Azure infrastructure support for cloud-native web applications.", "capabilities": ["Azure Front Door", "App Services", "Azure SQL", "Azure Functions", "Azure OpenAI GPT models and embeddings", "IaC", "Azure DevOps CI/CD"]},
+    {"label": "HR Services Cloud-Native Web Application", "publicRole": "Azure Solution Architect / DevOps Engineer", "summary": "Cloud-native HR services web application support in Azure.", "capabilities": ["Azure Front Door", "App Services", "Azure SQL", "B2C integration", "Azure DevOps CI/CD", "secure application environment design"]},
+    {"label": "Automotive Manufacturing Cloud Applications", "publicRole": "Lead Solution Architect / Azure Cloud Architect", "summary": "Azure infrastructure and solution architecture for enterprise automotive application teams.", "capabilities": ["Azure infrastructure architecture", "requirements translation", "PoC-approved design refinement", "enterprise CI/CD", "networking", "security", "governance", "compliance"]}
   ],
   "aiPositioning": [
-    "Uses AI-assisted engineering workflows to accelerate solution research, documentation, architecture validation, and IaC drafting.",
+    "Uses AI-assisted engineering workflows to accelerate solution research, documentation, IaC drafting, and validation.",
     "Uses AI as a force multiplier, not as a substitute for tested implementation or source-backed decision-making.",
-    "Keeps final technical decisions grounded in source documentation, client constraints, and implementation evidence."
+    "Avoid claiming that AI single-handedly reduced project headcount unless a specific public-safe project outcome is confirmed."
   ],
-  "education": [
-    {
-      "institution": "National Institute of Technology",
-      "location": "Southfield, MI",
-      "description": "Technical/vocational training in Information Technology"
-    }
-  ],
+  "education": [{"institution": "National Institute of Technology", "location": "Southfield, MI", "description": "Technical/vocational training in Information Technology", "degreeClaim": "No degree claimed"}],
   "certifications": [],
+  "staleInfoRemoved": ["Removed AZ-900 certification claim.", "Removed Associate's degree claim.", "Updated Slalom start date from Apr 2022 to May 2022.", "Replaced older generic Azure positioning with final 2026 headline and market summary.", "Added Azure Virtual Desktop / VDI modernization material from 2026-06-14 source update."],
   "publicUseNotes": [
-    "Do not publish phone or email until confirmed for public use.",
-    "Do not list a degree or certification unless confirmed and intentionally public.",
+    "Email is included because the final 2026 resume contact line includes r.weatherly@gmail.com; phone remains intentionally omitted.",
+    "Do not list a degree or certification unless Rob explicitly changes that later.",
     "Do not include client names, internal project names, Notion transcripts, local file paths, or private source evidence.",
-    "Use profile.public.json as structured source data and resume-site-source.md as human-readable context."
+    "Use industry labels and capability descriptions for Slalom-era client engagements."
   ]
 }

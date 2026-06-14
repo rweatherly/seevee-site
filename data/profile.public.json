@@ -11,7 +11,7 @@
   },
   "profile": {
     "name": "Rob Weatherly",
-    "title": "Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering",
+    "title": "Azure Infrastructure Architect / Lead Cloud Engineer",
     "location": "Metro Detroit, MI",
     "email": "r.weatherly@gmail.com",
     "linkedIn": "https://www.linkedin.com/in/rob-weatherly/",
@@ -22,12 +22,12 @@
       "Uses AI as a force multiplier for design, research validation, documentation, and infrastructure as code while keeping final decisions grounded in tested implementation."
     ],
     "targetRoles": [
-      "Azure Infrastructure Architect",
+      "Azure Infrastructure/Cloud Architect",
+      "Technical Manager/Director",
+      "Azure Solutions Architect",
+      "Azure Practice Lead",
       "Lead Cloud Engineer",
-      "Lead Technical Engineer",
-      "Azure Architect",
-      "Cloud Foundation Architect",
-      "Senior Technical Consultant"
+      "Azure Cloud Foundation Architect"
     ]
   },
   "skills": [

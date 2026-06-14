@@ -8,7 +8,9 @@ Source refresh: synchronized from `Rob_Weatherly_Extended_Resume_Data.md`, modif
 
 Rob Weatherly is an infrastructure architect and lead engineer with 25 years in IT and roughly 8 years focused on Azure architecture, implementation, migration, and operations.
 
-Headline: Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering.
+Displayed site title: Azure Infrastructure Architect / Lead Cloud Engineer.
+
+Resume headline: Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering.
 
 Primary positioning:
 
@@ -33,12 +35,12 @@ Phone remains intentionally omitted.
 
 ## Target Roles
 
-- Azure Infrastructure Architect
+- Infrastructure/Cloud Architect
+- Technical Manager/Director
+- Solutions Architect
+- Azure Practice Lead
 - Lead Cloud Engineer
-- Lead Technical Engineer
-- Azure Architect
 - Cloud Foundation Architect
-- Senior Technical Consultant
 
 ## Core Skills
 

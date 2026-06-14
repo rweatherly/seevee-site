@@ -13,7 +13,8 @@ The current public data was refreshed from `Rob_Weatherly_Extended_Resume_Data.m
 
 Canonical resume-site facts reflected here:
 
-- Headline: Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering.
+- Displayed site title: Azure Infrastructure Architect / Lead Cloud Engineer.
+- Resume headline: Azure Infrastructure Architect | Lead Cloud Engineer | Lead Technical Engineering.
 - Slalom role: Senior Consultant and Azure Infrastructure Architect, May 2022 to present.
 - Contact: r.weatherly@gmail.com, LinkedIn, Metro Detroit, MI. Phone remains omitted.
 - Education: National Institute of Technology, technical/vocational IT training.
